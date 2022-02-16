@@ -20,7 +20,7 @@ namespace JollyGood.Systems.Item
         private List<Item> to1;
 
         public Transaction(IReadWriteableItemContainer container1, IReadWriteableItemContainer container2
-            , List<Item> to2, List<Item> to1)
+            , List<Item> to1, List<Item> to2)
         {
             this.container1 = container1;
             this.container2 = container2;

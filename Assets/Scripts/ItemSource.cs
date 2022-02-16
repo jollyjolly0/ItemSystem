@@ -7,8 +7,9 @@ namespace JollyGood.Systems.Item
 {
     public class ItemSource : IItemTransactioner, IReadWriteableItemContainer
     {
-
-
+        public ItemSource()
+        {
+        }
 
         public WriteItemResultCode AddItem(Item item)
         {

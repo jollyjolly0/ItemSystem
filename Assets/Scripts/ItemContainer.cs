@@ -10,6 +10,10 @@ namespace JollyGood.Systems.Item
     {
         private List<Item> items;
 
+        public ItemContainer()
+        {
+            items = new List<Item>();
+        }
 
         public WriteItemResultCode AddItem(Item item)
         {

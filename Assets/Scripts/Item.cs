@@ -6,6 +6,11 @@ namespace JollyGood.Systems.Item
 {
     public struct Item
     {
-        readonly int typeID;
+        readonly public int typeID;
+
+        public Item(int typeID)
+        {
+            this.typeID = typeID;
+        }
     }
 }
