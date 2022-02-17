@@ -1,9 +1,7 @@
 {
     "name": "Zenject",
     "rootNamespace": "",
-    "references": [
-        "GUID:443f6fb55eeccee4bbc57f9c5a51a407"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
